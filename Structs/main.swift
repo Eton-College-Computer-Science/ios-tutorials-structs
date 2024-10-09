@@ -7,5 +7,14 @@
 
 import Foundation
 
-print("Hello, World!")
+struct Book {
+    let author: String
+    let title: String
+    let yearPublished: Int
+    var price: Double
+    let isHardcover: Bool
+}
 
+let animalFarm = Book(author: "George Orwell", title: "Animal Farm", yearPublished: 1945, price: 9.99, isHardcover: false)
+
+print(animalFarm.author)
